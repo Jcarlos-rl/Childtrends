@@ -1,0 +1,96 @@
+.container90{
+    margin:0 auto;
+    max-width:1280px;
+    width:90%
+}
+@media only screen and (min-width: 601px){
+    .container90{
+        width:85%
+    }
+}
+@media only screen and (min-width: 993px){
+    .container90{
+        width:90%
+    }
+}
+
+.container80{
+    margin:0 auto;
+    max-width:1280px;
+    width:90%
+}
+@media only screen and (min-width: 601px){
+    .container80{
+        width:85%
+    }
+}
+@media only screen and (min-width: 993px){
+    .container80{
+        width:80%
+    }
+}
+
+nav ul a:hover{
+    background-color: rgba(160, 113, 228,0.9) !important;
+    color: white !important;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.justify{
+    text-align: justify;
+}
+
+.paquete-1{
+    background-color: rgb(212, 191, 243);
+    margin-top: 40px;
+}
+.paquete-2{
+    background-color: rgb(243, 204, 191);
+    padding-bottom: 40px !important;
+}
+.paquete-3{
+    background-color: rgb(230, 243, 191);
+    margin-top: 40px;
+}
+
+/*Colores*/
+.morado-child{
+    background-color: #a56fe6;
+}
+.morado-child-text{
+    color: #a56fe6;
+}
+.btn-morado-child{
+    background-color: #531c97;
+}
+
+.btn:hover, .btn-large:hover, .btn-small:hover .btn-morado-child{
+    background-color: #2f1056 !important;
+}
+.amarillo-child{
+    background-color: #fed105;
+}
+.rosa-child{
+    background-color: #f5bda7;
+}
+.azul-child{
+    background-color: #03a6ea;
+}
+.verde-child{
+    background-color: #009f47;
+}
+.azulclaro-child{
+    background-color: #a9e3f8;
+}
+.naranja-child{
+    background-color: #ec9400;
+}
+.cien-vh{
+    height: 100vh;
+}
+.spacing100{
+    height: 100px;
+}
