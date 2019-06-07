@@ -23,10 +23,25 @@
     .container80{
         width:85%
     }
+    .cien-vh{
+        height: 100vh;
+    }
 }
 @media only screen and (min-width: 993px){
     .container80{
         width:80%
+    }
+    .cien-vh{
+        height: 100vh;
+    }
+    .paquete-1{
+        margin-top: 40px;
+    }
+    .paquete-2{
+        padding-bottom: 40px !important;
+    }
+    .paquete-3{
+        margin-top: 40px;
     }
 }
 
@@ -45,15 +60,12 @@ nav ul a:hover{
 
 .paquete-1{
     background-color: rgb(212, 191, 243);
-    margin-top: 40px;
 }
 .paquete-2{
     background-color: rgb(243, 204, 191);
-    padding-bottom: 40px !important;
 }
 .paquete-3{
     background-color: rgb(230, 243, 191);
-    margin-top: 40px;
 }
 
 /*Colores*/
@@ -87,9 +99,6 @@ nav ul a:hover{
 }
 .naranja-child{
     background-color: #ec9400;
-}
-.cien-vh{
-    height: 100vh;
 }
 .spacing100{
     height: 100px;
