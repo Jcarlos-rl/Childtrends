@@ -1,7 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Mali:400,600&display=swap');
+
+.mali{
+    font-family: 'Mali', cursive;
+    font-weight: 400;
+}
+.mali-strong{
+    font-family: 'Mali', cursive;
+    font-weight: 600;
+}
 .container90{
     margin:0 auto;
     max-width:1280px;
     width:90%
+}
+.logo{
+    width: 250px;
 }
 @media only screen and (min-width: 601px){
     .container90{
@@ -11,6 +24,9 @@
 @media only screen and (min-width: 993px){
     .container90{
         width:90%
+    }
+    .logo{
+        width: 280px;
     }
 }
 
@@ -102,4 +118,28 @@ nav ul a:hover{
 }
 .spacing100{
     height: 100px;
+}
+
+.input-field label {
+    color: #fff;
+}
+.input-field input[type=text]:focus + label {
+    color: #fff;
+}
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #fff;
+    box-shadow: 0 1px 0 0 #fff;
+}
+.input-field .prefix.active {
+    color: #fff;
+}
+input[type=text]:not(.browser-default), input[type=email]:not(.browser-default), textarea.materialize-textarea {
+    border-bottom: 1px solid #fff;
+}
+input[type=text]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]){
+    border-bottom: 1px solid #fff;
+    box-shadow: 0 1px 0 0 #fff;
+}
+input[type=text]:not(.browser-default):focus:not([readonly])+label, input[type=email]:not(.browser-default):focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label{
+    color: #fff;
 }
