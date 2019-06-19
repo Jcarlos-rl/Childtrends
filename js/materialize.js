@@ -14,6 +14,13 @@ $('.carousel.carousel-slider').carousel({
     indicators: true
 });
 
+setInterval(function(){
+    $('.carousel.carousel-slider').carousel('next');
+}, 3000);
+
 $(document).ready(function(){
     $('.sidenav').sidenav();
+});
+$(document).ready(function(){
+    $('.fixed-action-btn').floatingActionButton();
 });

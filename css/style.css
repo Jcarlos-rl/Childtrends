@@ -120,6 +120,10 @@ nav ul a:hover{
     height: 100px;
 }
 
+.spacing50{
+    height: 50px;
+}
+
 .input-field label {
     color: #fff;
 }
@@ -142,4 +146,12 @@ input[type=text]:not(.browser-default):focus:not([readonly]), input[type=email]:
 }
 input[type=text]:not(.browser-default):focus:not([readonly])+label, input[type=email]:not(.browser-default):focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label{
     color: #fff;
+}
+
+.card .card-content {
+    height: 150px;
+}
+
+.btn-large:hover{
+    background-color: #25d366 !important;
 }
