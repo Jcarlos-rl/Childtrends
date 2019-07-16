@@ -1,8 +1,16 @@
 $(document).ready(function(){
-    $('.slider').slider({
-        height: $(window).height(),
-        indicators: false,
-    });
+    var x = window.matchMedia("(max-width: 600px)");
+    if(x.matches){
+        $('.slider').slider({
+            height: 300,
+            indicators: false,
+        });
+    }else{
+        $('.slider').slider({
+            height: $(window).height(),
+            indicators: false,
+        });
+    }
 });
 
 $(document).ready(function(){
